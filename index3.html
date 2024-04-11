@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car_syte</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="my_css.css">
+   
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="files/svg/car-front-fill.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Шоурум</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Комплектации и цены</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link active" href="index3.html">Контакты</a>
+                  </li>    
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+      <div class="container-fluid my-4">
+          <div class="row">
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-8">
+                <img name="img" src="files/img/grey/0.webp" class="d-block w-100" alt="...">
+                <p>Остались вопросы? Оставьте заявку и наш менеджер свяжется с Вами!</p>
+                <div>
+                    <p>Укажите Ваше имя:
+                        <input type="text" id="item1">
+                    </p>
+                    <p>Укажите номер телефона:
+                        <input type="text" id="item2">
+                    </p>
+                    <button id="send">Подтвердить</button>
+                    <button id="clear">Отмена</button>
+                </div>
+            </div>
+              <div class="col-lg-1">
+              </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 footer-style">
+            <p>Информация носит ознакомительный характер. <br> 
+              За получением консультации обратитесь к специалисту.</p>
+          </div>
+          <div class="col-lg-4 footer-style">
+            <p>Телефон: 8(4922) 77-77-13 <br> 
+              Адрес: г.Владимир, ул.Юбилейная, д.18</p>
+          </div>
+          <div class="col-lg-4 footer-style">
+            <p class = "nav-link">Стиль сраницы <br>
+              <button onclick="changeColor('blue')" class="blue"></button>
+              <button onclick="changeColor('green')" class="green"></button>
+              <button onclick="changeColor('maroon')" class="maroon"></button>
+            </p>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="scr3.js"></script>
+</body>
+</html>

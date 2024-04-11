@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+/*Верхнее меню*/
+.nav-link {
+    color:#097909;
+    font-size: large;
+    font-family: 'Verdana';
+    font-weight: bold;
+}
+.navbar-brand img {
+    width: 40px;
+}
+body  {
+    font-family: 'Verdana', serif;
+    background: linear-gradient(0deg, rgba(2,0,36,0.39548319327731096) 0%, rgba(198,198,198,0.6699929971988796) 29%, rgba(255,255,255,1) 100%);
+    min-height: 100vh;/*Используем для прижатия вниз футера*/
+    display: flex;/*Используем для прижатия вниз футера*/
+    flex-direction: column;/*Используем для прижатия вниз футера*/
+}
+.col-lg-3 p {
+    font-size: large;
+}
+
+.slide-text{
+    font-size: large;
+    margin: auto;
+}
+
+/*Подвал*/
+footer{
+    background: #ffffff;
+    font-size:medium;
+    font-family: 'Verdana';
+    margin-top: auto;/*Используем для прижатия вниз футера*/
+}
+
+.carousel-indicators{
+    bottom: -40px;
+}
+
+/*Кнопки выбора цвета машины*/
+.button {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+#btn1 {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    background-color: #979897;
+}
+#btn2 {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+#btn3 {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    background-color: #434343;
+}
+.blue {
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    bottom: 5px;
+    border-radius: 50%;
+    background-color:blue;
+}
+.green {
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    bottom: 5px;
+    border-radius: 50%;
+    background-color:#097909;
+}
+.maroon {
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    bottom: 5px;
+    border-radius: 50%;
+    background-color:maroon;
+}
+
+.link{
+    color:#097909; 
+}
+h4{
+    font-size: large;
+    font-family: 'Verdana';
+    font-weight: bold; 
+}
